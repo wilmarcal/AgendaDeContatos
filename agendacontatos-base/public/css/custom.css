@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html{
+    background-color:  #1C272C;
+    color: white;
+    font-weight: 600;
+}
+
+#containerDiv{
+    background-color: #1C272C;
+    color: white;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input, select{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid white; 
+    color: white;
+    margin-bottom: 15px;
+}
+
+input:focus, input:active, input:hover, input:enabled, select{
+    outline: 0px;
+    outline-offset: 0px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#nome{
+    width: 90%;
+}
+
+#sobrenome{
+    width: 90%;
+}
+
+#ddd{
+    width: 20%;
+}
+
+#telefone{
+    width: 70%;
+}
+
+#email{
+    width: 90%;
+}
+
+#logradouro{
+    width: 80%;
+}
+
+#numero{
+    width: 10%;
+}
+
+#cep{
+    width: 10%;
+}
+
+#cidade{
+    width: 40%;
+}
+
+#estado{
+    width: 40%;
+}
+
+#bairro{
+    width: 90%;
+}
